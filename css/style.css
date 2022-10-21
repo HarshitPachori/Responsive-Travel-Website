@@ -43,6 +43,13 @@ section {
   background: #000;
   color: #fff;
 }
+.heading{
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 4rem;
+  color: #000;
+
+}
 .header {
   position: fixed;
   top: 0;
@@ -189,6 +196,46 @@ section {
   font-size: 3rem;
   color: #000;
 }
+
+.category .box-container{
+display: -ms-grid;
+display: grid;
+-ms-grid-columns: (minmax(29rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+gap: 1.5rem;
+}
+.category .box-container .box{
+  text-align: center;
+  padding: 1rem;
+}
+.category .box-container .box img{
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.category .box-container .box h3 {
+  font-size: 2rem;
+  color: #219150;
+}
+
+.category .box-container .box p {
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 1rem 0;
+  line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query  */
 @media (max-width: 1200px) {
